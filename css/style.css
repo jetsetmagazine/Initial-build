@@ -27,7 +27,6 @@ Github URI: https://github.com/gsvineeth/rwdgrid/
 /* Style for demo REMOVE THIS SECTION */
 .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12,  .grid-13,  .grid-14,  .grid-15,  .grid-16 {
 	background:#ccc!Important;
-	height:50px;
 	color:#333;
 	margin-bottom:15px;
 }
@@ -49,7 +48,9 @@ p{
 body{
 	font-family:sans-serif;}
  
+.header {height: 80px; background-color: #fff; margin-left:10px; margin-right: 10px;}
 
+.top-logo{background-image: url('../images/jetset.png'); width: 230px; height: 60px; position: relative; top:10px; left:10px;}
 
 
 /********************************************************************************************* 
