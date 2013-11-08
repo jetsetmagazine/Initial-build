@@ -7,12 +7,13 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <!-- Meta -->
-<title>Your Awesome Website Title :)</title>
+<title>Jetset Magazine 2.0</title>
 <meta name="description" content="">
 <meta name="author" content="">
 <meta name="viewport" content="width=device-width">
 <!-- End Meta -->
 
+<link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/rwdgrid.css">
 <link rel="stylesheet" href="css/style.css">
 
@@ -28,6 +29,8 @@
 
   <!--Initial Load Scripts -->
   <script src="js/jquery-2.0.3.min.js"></script>
+  <script type="text/javascript" src="js/global.js"></script>
+
   <!--End Initial Load Scripts -->
 
   <!-- Favicons -->
@@ -40,38 +43,255 @@
 </head>
 <body>
 
-<div class="container-16">
+<div class="container-16" id="slider1_container">
+
+<div class="grid-16">
 
   <div class="header">
-    <div class="top-logo"></div>
+    <div class="topLogo"></div>
   </div>
 
-  <div class="Top Slider">Top Slider</div>
 
-  <div class="grid-3">
-    <p> grid 3 </p>
+  <div class="topSlider">
+
+        <!-- Slides Container -->
+        <div u="slides" id="slidecontain" style="position: absolute; top: 90px; width: 1180px; height: 325px; overflow: hidden;">
+            <div>
+                <img src="http://www.jetsetmag.com/ads/index/top/ad1.jpg" class="topslidewidth" />
+                <div u="thumb">
+                    <img class="i" src="http://www.jetsetmag.com/ads/index/sidebar/ad1.jpg" style="width:345px; height:345px;" />
+                </div>
+            </div>
+            <div>
+                <img src="http://www.jetsetmag.com/ads/index/top/ad2.jpg" class="topslidewidth" />
+                <div u="thumb">
+                    <img class="i" src="http://www.jetsetmag.com/ads/index/sidebar/ad3.jpg" style="width:345px; height:345px;" />
+                </div>
+            </div>
+            <div>
+                <A href="#"><img src="http://www.jetsetmag.com/ads/index/top/ad3.jpg" class="topslidewidth" /></a>
+                <div u="thumb">
+                    <img class="i" src="http://www.jetsetmag.com/ads/index/sidebar/ad4.jpg" style="width:345px; height:345px;" />
+                </div>
+            </div>
+            <div>
+                <img src="http://www.jetsetmag.com/ads/index/top/ad4.jpg" class="topslidewidth" />
+                <div u="thumb">
+                    <img class="i" src="http://www.jetsetmag.com/ads/index/sidebar/ad5.jpg" style="width:345px; height:345px;" />
+                </div>
+            </div>
+            <div>
+                <img src="http://www.jetsetmag.com/ads/index/top/ad5.jpg" class="topslidewidth" />
+                <div u="thumb">
+                    <img class="i" src="http://www.jetsetmag.com/ads/index/sidebar/ad2.jpg" style="width:345px; height:345px;" />
+                </div>
+            </div>
+        </div>
+     
+<!--top ad-->
+    
   </div>
-  <!-- End grid-3 -->
-  <div class="grid-4">
-    <p> grid 4 </p>
-  </div>
-  <!-- End grid-4 -->
-  <div class="grid-4">
-    <p> grid 4 </p>
-  </div>
-  <!-- End grid-4 -->
-  <div class="grid-5">
-    <p> grid 5 </p>
 
-    <div class="floating-box">
-    <p>Floating Box</p>
+</div>
 
-    <div class="side-ad"><p>Side Ad</p></div>
 
-    <div class="issue-roundabout"><p>Issue Roundabout</p></div>
+
+<!--begin content-->
+
+
+  <!--WEB FEATURE Column-->
+    <div class="grid-3">
+
+      <ul class="articleImages">
+          <li>
+              <img class="articleImg" src="images/dragon-pearls.jpg" />
+              <div class="imageCaption">
+                  <p class="captionTitle">Dragon and the Pearl</p>
+              </div>
+          </li>
+
+          <li>
+              <a href=""><img class="articleImg" src="images/prevost.jpg" /></a>
+              <div class="imageCaption">
+                  <p>Prevost</p>
+              </div>
+          </li>
+
+          <li>
+              <img class="articleImg" src="images/dragon-pearls.jpg" />
+              <div class="imageCaption">
+                  <p class="captionTitle">Dragon and the Pearl</p>
+              </div>
+          </li>
+
+          <li>
+              <a href=""><img class="articleImg" src="images/prevost.jpg" /></a>
+              <div class="imageCaption">
+                  <p>Prevost</p>
+              </div>
+          </li>
+
+          <li>
+              <img class="articleImg" src="images/dragon-pearls.jpg" />
+              <div class="imageCaption">
+                  <p class="captionTitle">Dragon and the Pearl</p>
+              </div>
+          </li>
+
+          <li>
+              <a href=""><img class="articleImg" src="images/prevost.jpg" /></a>
+              <div class="imageCaption">
+                  <p>Prevost</p>
+              </div>
+          </li>
+      </ul>
 
     </div>
-    <!-- End Floating Box -->
+  <!-- END WEB FEATURE Column -->
+
+
+  <!-- First Article Column -->
+  <div class="grid-4">
+
+
+    <ul class="articleImages">
+        <li>
+            <img class="articleImg" src="images/richard-branson-virgin.jpg" />
+            <div class="imageCaption">
+                <p>Richard Branson</p>
+            </div>
+        </li>
+
+        <li>
+            <img class="articleImg" src="images/signaling-future.jpg" />
+            <div class="imageCaption">
+                <p>Signaling the future</p>
+            </div>
+        </li>
+
+        <li>
+            <img class="articleImg" src="images/richard-branson-virgin.jpg" />
+            <div class="imageCaption">
+                <p>Richard Branson</p>
+            </div>
+        </li>
+
+        <li>
+            <img class="articleImg" src="images/signaling-future.jpg" />
+            <div class="imageCaption">
+                <p>Signaling the future</p>
+            </div>
+        </li>
+
+        <li>
+            <img class="articleImg" src="images/richard-branson-virgin.jpg" />
+            <div class="imageCaption">
+                <p>Richard Branson</p>
+            </div>
+        </li>
+
+        <li>
+            <img class="articleImg" src="images/signaling-future.jpg" />
+            <div class="imageCaption">
+                <p>Signaling the future</p>
+            </div>
+        </li>
+    </ul>
+    
+  </div>
+  <!-- END First Article Column -->
+
+
+  <!-- Second Article Column -->
+  <div class="grid-4">
+
+
+    <ul class="articleImages">
+        <li>
+            <img class="articleImg" src="images/entrepreneurial-genius.jpg" />
+            <div class="imageCaption">
+                <p>Entrepreneurial Genius</p>
+            </div>
+        </li>
+
+        <li>
+            <img class="articleImg" src="images/inspired-education.jpg" />
+            <div class="imageCaption">
+                <p>Inspired Education</p>
+            </div>
+        </li>
+
+        <li>
+            <img class="articleImg" src="images/entrepreneurial-genius.jpg" />
+            <div class="imageCaption">
+                <p>Entrepreneurial Genius</p>
+            </div>
+        </li>
+
+        <li>
+            <img class="articleImg" src="images/inspired-education.jpg" />
+            <div class="imageCaption">
+                <p>Inspired Education</p>
+            </div>
+        </li>
+
+        <li>
+            <img class="articleImg" src="images/entrepreneurial-genius.jpg" />
+            <div class="imageCaption">
+                <p>Entrepreneurial Genius</p>
+            </div>
+        </li>
+
+        <li>
+            <img class="articleImg" src="images/inspired-education.jpg" />
+            <div class="imageCaption">
+                <p>Inspired Education</p>
+            </div>
+        </li>
+
+    </ul>
+
+
+  </div>
+  <!-- END Second Article Column -->
+
+
+  <div class="grid-5">
+
+    <div class="floating-box">
+
+<!--side ad--><div class="side-ad">
+
+        <!-- ThumbnailNavigator Skin Begin -->
+        <div u="thumbnavigator" class="slider1-T" style="position: static; width: 350px; height: 350px; ">
+            <!--<div style=" background-color: #000; filter:alpha(opacity=30); opacity:.3; width: 100%; height:100%;"></div>-->
+
+            <!-- Thumbnail Item Skin Begin -->
+            <div u="slides" style="height:350px!important;position:static; margin-top:-350px;left:0px!important; width:350px!important;">
+                <div u="prototype" class="p" style="POSITION: absolute; WIDTH: 350px; HEIGHT: 350px; TOP: 0; LEFT: 0;">
+                    <ThumbnailTemplate style=" WIDTH: 100%; HEIGHT: 100%; border: none;position:absolute; TOP: 0; LEFT: 0;"></ThumbnailTemplate>
+                </div>
+            </div>
+            <!-- Thumbnail Item Skin End -->
+        </div>
+        <!-- ThumbnailNavigator Skin End -->
+
+<!--side ad-->
+
+
+    </div><!-- END SideAd-->
+
+    <div class="issue-roundabout"><p>Issue Roundabout</p>
+
+      <!--roundabout-->
+
+      <!-- END roundabout-->
+
+
+
+    </div>
+
+    </div><!-- End Floating Box -->
 
   </div>
   <!-- End grid-5 -->
@@ -83,7 +303,38 @@
 <!--Additional Scripts-->
   
 <script src="http://dropthebit.com/demos/stickyfloat/stickyfloat.js"></script>
-<script type="text/javascript">$(document).ready(function() {$( '.container' ).fadeIn("slow");});</script>
+<script type="text/javascript" src="js/beautiful.js"></script>
+<script>
+  jQuery(document).ready(function ($) {$('#slider1_container').jssorSlider({
+    $AutoPlay: true,
+    $AutoPlaySteps: 1,
+    $AutoPlayInterval: 4000,
+    $PauseOnHover: false,
+    $ArrowKeyNavigation: true,
+    $SlideDuration: 5,
+    $MinDragOffsetToSlide: 5,
+    $SlideSpacing: 5,
+    $DisplayPieces: 1,
+    $ParkingPosition: 0,
+    $UISearchMode: 1,
+    $PlayOrientation: 1,
+    $DragOrientation: 3,
+    $ThumbnailNavigatorOptions: {
+    $Class: $JssorThumbnailNavigator$,
+    $ChanceToShow: 2,
+    $AutoCenter: 3,
+    $Lanes: 1,
+    $SpacingX: 4,
+    $SpacingY: 4,
+    $DisplayPieces: 4,
+    $ParkingPosition: 0,
+    $Orientation: 1,
+    $DisableDrag: false
+    }
+    });
+    });
+</script>
+
 
 <!--Additional Scripts-->
 
