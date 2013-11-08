@@ -45,7 +45,11 @@ p{
     opacity: 0.85
 }
 
-.imageCaption p{font-family: 'Italiana', serif; font-size: 22px}
+.captionTitle{font-family: 'Italiana', serif; font-size: 22px; padding-bottom: 3px;}
+
+.captionText{font-family: 'oxygen', serif; font-size: 12px; padding-top:7px; height: 50px; overflow: hidden;}
+
+.byline{padding-top: 0px; padding-bottom: 5px; font-size: 11px; border-bottom: solid 1px #777;}
 
 .articleImages li{
     display:block;
@@ -131,5 +135,8 @@ body{
 @media only screen and (max-width: 719px) {
 
  .topslidewidth{width: 415px;}
+
+ .imageCaption p{font-family: 'Italiana', serif; font-size: 32px}
+
 
 }
