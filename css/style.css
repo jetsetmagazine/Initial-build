@@ -38,16 +38,26 @@ p{
 .imageCaption{
     display:block;
     position:absolute;
-    background:#d5d5d5;
+    background:#444;
     width:100%;
-    color:#000;
+    color:#d5d5d5;
     height: 99%;
     opacity: 0.85
 }
 
+.featureCaption{
+    display:block;
+    position:absolute;
+    background:#444;
+    width:100%;
+    color:#d5d5d5;
+    height: 99%;
+    opacity: 0.85;
+}
+
 .captionTitle{font-family: 'Italiana', serif; font-size: 22px; padding-bottom: 3px;}
 
-.captionText{font-family: 'oxygen', serif; font-size: 12px; padding-top:7px; height: 50px; overflow: hidden;}
+.captionText{font-family: 'oxygen', serif; font-size: 13px; padding-top:7px; height: 50px; overflow: hidden;}
 
 .byline{padding-top: 0px; padding-bottom: 5px; font-size: 11px; border-bottom: solid 1px #777;}
 
@@ -76,7 +86,8 @@ p{
 }
 
 
-	
+.mainNav{width: auto; height: 50px; }
+
 	
 /********************************************************************************************* 
 
