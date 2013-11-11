@@ -1,92 +1,112 @@
 /*********************************************************************************************
-
-Project : rwdgrid - responsive grid system for your next project
-URI: http://rwdgrid.com/
-Version: 1.0
-Author: Vineeth G S 
-Author URI: http://www.gsvineeth.com
-Github URI: https://github.com/gsvineeth/rwdgrid/
-
+Copyright 2013 Jetset Magazine, LLC
+Developed by Brandon Torraco / www.brandontorraco.com
 **********************************************************************************************
-
 1.  Default / for Grid 1200px             
 2.  960px 
 3.  720px
 4.  lt 720px 
 
-
-**********************************************************************************************/
+****************************************** Fonts ****************************************************/
 
 @import url(http://fonts.googleapis.com/css?family=Italiana|Oxygen:400,300,700);
 
-/********************************************************************************************* 
+/*************************************** End Fonts ************************************************** 
 
 1.  Default / for Grid 1200px             
 
 *********************************************************************************************/   
 
-/* Style for demo REMOVE THIS SECTION */
-.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12,  .grid-13,  .grid-14,  .grid-15,  .grid-16 {
-	margin-bottom:15px;
-}
+/* Defaults */
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12,  .grid-13,  .grid-14,  .grid-15,  .grid-16 {margin-bottom:15px;}
 
-body{
-	background:#f5f5f5;}
-p{
-	padding:15px;}
+body{background:#f5f5f5; font-size: 100%;}
+p{padding:15px;}
+a{color: #444; text-decoration: none;}
+a:hover{color: #999; text-decoration: underline;}
 
-.imageCaption{
-    display:block;
-    position:absolute;
-    background:#444;
-    width:100%;
-    color:#d5d5d5;
-    height: 99%;
-    opacity: 0.85
-}
+/******* End Defaults *******/
 
-.featureCaption{
-    display:block;
-    position:absolute;
-    background:#444;
-    width:100%;
-    color:#d5d5d5;
-    height: 99%;
-    opacity: 0.85;
-}
 
+/*******  Header *******/
+
+.header {height: 85px; background-color: #fff;}
+.topLogo{background-image: url('../images/jetset.png'); width: 230px; height: 60px; position: relative; top:10px; left:10px;}
+.topSlider{}
+.topslidewidth{width: 1180px;}
+#slidecontain{height: 320px;}
+
+/******* End Header *********/
+
+
+/******* Article Captions ********/
+
+.imageCaption{display:block;position:absolute;background:#444;width:100%;color:#d5d5d5;height: 100%;opacity: 0.85}
+.featureCaption{display:block;position:absolute;background:#444;width:100%;color:#d5d5d5;height: 98%;opacity: 0.85;}
 .captionTitle{font-family: 'Italiana', serif; font-size: 22px; padding-bottom: 3px;}
-
 .captionText{font-family: 'oxygen', serif; font-size: 13px; padding-top:7px; height: 50px; overflow: hidden;}
-
 .byline{padding-top: 0px; padding-bottom: 5px; font-size: 11px; border-bottom: solid 1px #777;}
 
-.articleImages li{
-    display:block;
-    float:left;
-    position:relative;
-    overflow:hidden;
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    margin-bottom: 15px;
+.articleImages li{display:block;float:left;position:relative;overflow:hidden;padding: 0px;margin: 0px;width: 100%;margin-bottom: 15px;}
+.articleImages ul{display:block;float:left;position:relative;overflow:hidden;padding: 0px;margin: 0px;}
+.articleImg{width: 100%;}
+
+/******* End Article Captions ********/
+
+
+/****** Navigation ******/
+
+.mainNav{width: auto; height: 40px; 
+background: #e5e5e5; /* Old browsers */
+background: -moz-linear-gradient(top,  #e5e5e5 0%, #ffffff 50%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e5e5), color-stop(50%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #e5e5e5 0%,#ffffff 50%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #e5e5e5 0%,#ffffff 50%,#e5e5e5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #e5e5e5 0%,#ffffff 50%,#e5e5e5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #e5e5e5 0%,#ffffff 50%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+margin-top: 10px; border: solid 1px #bbbcbc;
 }
 
-.articleImages ul{
-    display:block;
-    float:left;
-    position:relative;
-    overflow:hidden;
-    padding: 0px;
-    margin: 0px;
-}
+.mainNav ul{ list-style: none; padding: 11px;}
+.mainNav li{display: inline; text-transform: uppercase; font-family: 'Italiana', serif; font-size: 19px; margin-right: 5px;border-right: solid 1px #d5d5d5;padding-right: 15px; }
+.mainNav li a{text-decoration: none; color: #888;}
+.mainNav li a:hover{color: #111}
 
-.articleImg{
-    width: 100%;
-}
+/*************************** Category Navigation *************************************/
+.catNav{display: none; float: left; position: relative; height: 45px; width: 100%; border: solid 1px #d5d5d5;}
+.catNav li{font-size: 10px; font-family: oxygen; display: inline; padding: 0px; margin: 0px;padding-right: 0px; margin-right: 0px; margin-left: 0px; border: none; }
+.catNavFade{display:none; height: 45px; position: relative; z-index: 9000;}
+.catContain{float: left; width: 70px; margin-left: 6px;}
+.catImg{display: none;}
+#category{cursor: pointer;}
+/*************************** End Category Navigation *************************************/
+
+/****** End Navigation ******/
 
 
-.mainNav{width: auto; height: 50px; }
+/********** Article Content ************/
+
+.articleContainer{background:#f9f9f9; border: solid 1px #ececec;  }
+.articleContainer p{color:#444; font-family: oxygen, sans-serif; font-size: 14px; line-height: 20px;  }
+
+.articleTitle{font-family: italiana, sans-serif; font-size: 24px; text-align: center;}
+
+/********** End Article Content ************/
+
+/******** Footer *********/
+.footer{float: left;height: 100%;background: #f1f1f1;width: 100%;}
+.footerLinks{height: 130px;float: left;position: relative;left: 30px;top: 20px;}
+.copyright{width: 100%; background:#dcdcdc; height: 25px; clear: both; font-family: oxygen, sans-serif; font-size: 12px; text-align: center; padding-top: 15px; color: #333;}
+.footerLink{width: 100%; float: left;}
+.footerLink a{font-family: oxygen, sans-serif; font-size: 14px; text-decoration: none; color: #444;}
+.footerLink a:hover{color: #999;}
+.footerTitle{font-family: italiana, sans-serif; font-size: 18px; text-transform: uppercase; float: left; margin-bottom: 5px;}
+
+.tel, .fLink{color:#444; text-decoration:none;}
+.tel:hover, .fLink:hover{color:#999; text-decoration: underline;}
+/******** End Footer *********/
+
 
 	
 /********************************************************************************************* 
@@ -95,18 +115,6 @@ p{
 
 *********************************************************************************************/  
 
-body{
-	font-family:sans-serif;}
- 
-.header {height: 85px; background-color: #fff;}
-
-.topLogo{background-image: url('../images/jetset.png'); width: 230px; height: 60px; position: relative; top:10px; left:10px;}
-
-.topSlider{}
-
-.topslidewidth{width: 1180px;}
-
-#slidecontain{height: 320px;}
 
 /********************************************************************************************* 
 
