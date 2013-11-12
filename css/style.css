@@ -27,6 +27,12 @@ a:hover{color: #999; text-decoration: underline;}
 
 /******* End Defaults *******/
 
+/**** Browser Hacks ****/
+
+
+div[u="thumbnavigator"] > div{width: 350px!important; left: 0px!important;}
+
+/**** End Browser Hacks ****/
 
 /*******  Header *******/
 
@@ -115,6 +121,12 @@ margin-top: 10px; border: solid 1px #bbbcbc;
 
 *********************************************************************************************/  
 
+/**** Ads *****/
+
+.staticAd {width: 100%;}
+
+.i{width: 350px!important; height: 350px!important; margin-bottom: 10px;}
+
 
 /********************************************************************************************* 
 
@@ -125,8 +137,22 @@ margin-top: 10px; border: solid 1px #bbbcbc;
 @media only screen and (min-width: 960px) and (max-width: 1199px) {
 
 .topslidewidth{width: 940px;}
+.topSlider > div{height: 320px!important; width: 940px!important;}
 
-#slidecontain{height: 275px!important;}
+#slidecontain{height: 320px!important;}
+
+.mainNav li{font-size: 14px; padding-right: 13px;}
+.captionTitle{font-size: 16px;}
+.captionText{font-size: 11px;}
+
+div[u="thumbnavigator"] > div{width: 280px!important; left: 0px!important;}
+
+.i{width: 275px!important; height: 275px!important;}
+
+div[u="thumbnavigator"] > div{max-width: 275px!important; left: 0px!important;}
+
+.slider1-T{width: 200px!important; height: 275px!important;}
+
 
 }
 	
@@ -140,6 +166,20 @@ margin-top: 10px; border: solid 1px #bbbcbc;
 @media only screen and (min-width: 720px) and (max-width: 959px) {
  
  .topslidewidth{width: 700px;}
+
+ .topSlider > div{height: 240px!important; width: 700px!important;}
+
+ .mainNav li{font-size: 11px; padding-right: 5px;}
+
+ .captionTitle{font-size: 13px; padding-top: 5px;}
+ .captionText{font-size: 9px;}
+ .byline{font-size: 10px;}
+
+ div[u="thumbnavigator"] > div{max-width: 200px!important; left: 0px!important;}
+
+.i{width: 200px!important; height: 200px!important;}
+
+.slider1-T{width: 200px!important; height: 200px!important;}
 
 }
  
@@ -157,5 +197,23 @@ margin-top: 10px; border: solid 1px #bbbcbc;
 
  .imageCaption p{font-family: 'Italiana', serif; font-size: 32px}
 
+.mainNav{height: 230px;}
+.mainNav ul {text-align: center;}
+.mainNav ul li{display: block;}
+
+.mainNav li a{text-decoration: none; color: #888; font-size: 9px; padding: 2px;}
+.mainNav li a:hover{color: #111}
+
+.topSlider{height: 150px;}
+
+div[u="thumbnavigator"] > div{max-width: 490px!important; left: 0px!important; text-align: center;}
+
+div[u="thumbnavigator"]{margin-left: 12.5%;}
+
+.topSlider > div{max-width:715px; height: 140px!important;}
+
+p.captionTitle{font-size: 20px;}
+p.byline{font-size: 18px}
+p.captionText{font-size: 14px;}
 
 }

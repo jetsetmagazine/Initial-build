@@ -1,6 +1,7 @@
 jQuery(document).ready(function(){
 
 
+
 $(".articleImages li").hover(
 function(){
 $(this).find(".imageCaption").animate({opacity: "show", bottom:"0"}, "2500");
@@ -30,11 +31,6 @@ $( "#category" ).click(function() {
 
 
 /* Category Navigation Function */
-
-
-
-
-
 
 
 /*  END Category Navigation Function */
