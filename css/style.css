@@ -47,8 +47,8 @@ div[u="thumbnavigator"] > div{width: 350px!important; left: 0px!important;}
 
 /******* Article Captions ********/
 
-.imageCaption{display:block;position:absolute;background:#444;width:100%;color:#d5d5d5;height: 100%;opacity: 0.85}
-.featureCaption{display:block;position:absolute;background:#444;width:100%;color:#d5d5d5;height: 98%;opacity: 0.85;}
+.imageCaption{display:block;position:absolute;background:#d5d5d5;width:100%;color:#444;height: 100%;opacity: 0.85}
+.featureCaption{display:block;position:absolute;background:#d5d5d5;width:100%;color:#444;height: 98%;opacity: 0.85;}
 .captionTitle{font-family: 'Italiana', serif; font-size: 22px; padding-bottom: 3px;}
 .captionText{font-family: 'oxygen', serif; font-size: 13px; padding-top:7px; height: 50px; overflow: hidden;}
 .byline{padding-top: 0px; padding-bottom: 5px; font-size: 11px; border-bottom: solid 1px #777;}
@@ -113,7 +113,40 @@ margin-top: 10px; border: solid 1px #bbbcbc;
 .tel:hover, .fLink:hover{color:#999; text-decoration: underline;}
 /******** End Footer *********/
 
+/******** Roundabout *********/
 
+			ul.issueRnd {
+				list-style: none;
+				padding: 0;
+				margin: 0 auto;
+				width: 250px;
+				height: auto;
+				float: left; 
+				margin-top: 45px;
+				margin-left: -5px;
+			}
+			.issueRnd ul li {
+				height: 115px!important;
+				width: 150px!important;
+				text-align: center;
+				cursor: pointer;
+			}
+			.issueRnd ul li.roundabout-in-focus {
+					cursor: default;
+			}
+
+			.issue-roundabout{position: relative;background: #D6D5D4; height: 250px;
+				background: rgb(226,226,226); /* Old browsers */
+				background: -moz-linear-gradient(-45deg,  rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(226,226,226,1)), color-stop(50%,rgba(219,219,219,1)), color-stop(51%,rgba(209,209,209,1)), color-stop(100%,rgba(254,254,254,1))); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(-45deg,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(-45deg,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(-45deg,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* IE10+ */
+				background: linear-gradient(135deg,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+			}
+
+/********** End Roundabout ***********/
 	
 /********************************************************************************************* 
 
