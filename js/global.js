@@ -1,6 +1,27 @@
-jQuery(document).ready(function(){
+$(window).load(function () {
 
+var featCount = $("#firstFeatCol li").size();
+var headerHeight = $("#headerHeight").height();
+var newOffsetHeight = featCount*150 + headerHeight;
 
+var staticAdHeight =  
+
+    window.onscroll = function() {
+        if (window.pageYOffset >= 1175){
+            $('.floatWrap').css({position: 'fixed', top: '10px'});
+        }
+        if (window.pageYOffset <= 1175){
+            $('.floatWrap').css({position: 'relative', top: '0px'});
+        }
+        if (window.pageYOffset >= newOffsetHeight){
+            $('.featureFloat').css({position: 'fixed', top: '10px'});
+        }
+        if (window.pageYOffset <= newOffsetHeight){
+            $('.featureFloat').css({position: 'relative', top: '0px'});
+        }
+    }
+    
+});
 
 $(".articleImages li").hover(
 function(){
@@ -43,23 +64,24 @@ $( "#category" ).click(function() {
 /* Roundabout Initialize */
 
 				$('.issueRnd').roundabout({
-				      	bearing: 2.0,
-						tilt: 20.5,
-						minZ: 20,
-						maxZ: 280,
-						minOpacity: 0.0,
+				      	bearing: 0.0,
+						tilt: 0.5,
+						minZ: 0,
+						maxZ: 25,
+						minOpacity: 0.2,
 						maxOpacity: 1.0,
 						minScale: 0.4,
 						maxScale: 1.0,
-						duration: 350,
+						duration: 600,
+                        shape: "lazysusan",
 						clickToFocus: true,
 						reflect: true,
-						floatComparisonThreshold: 1.021,
+                        easing: "swing",
+						floatComparisonThreshold: 0.001,
 						autoplay: false,
 						enableDrag: true,
-						enableDrop: true,
 						dropDuration: 100.0,
-						dropEasing: "linear",
+						dropEasing: "swing",
 						dropAnimateTo: "nearest",
 						dragAxis: "x",
 						dragFactor: 4,
@@ -72,8 +94,6 @@ $( "#category" ).click(function() {
 				});
 
 /* End Roundabout Initialize */
-
-});
 
   jQuery(document).ready(function ($) {$('#slider1_container').jssorSlider({
     $AutoPlay: true,
