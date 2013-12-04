@@ -17,19 +17,19 @@
 <link rel="stylesheet" href="css/rwdgrid.css">
 <link rel="stylesheet" href="css/style.css">
 
+
 <!-- html5.js for IE less than 9 -->
 <!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
 <!-- css3-mediaqueries.js for IE less than 9 -->
 <!--[if lt IE 9]>
-	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
 
   <!--Initial Load Scripts -->
   <script src="js/jquery-2.0.3.min.js"></script>
-  <script type="text/javascript" src="js/global.js"></script>
 
   <!--End Initial Load Scripts -->
 
@@ -45,7 +45,7 @@
 
 <div class="container-16" id="slider1_container" style="display:none;">
 
-<div class="grid-16" style="margin-bottom:7px;">
+<div class="grid-16" style="margin-bottom:7px;" id="headerHeight">
 
   <div class="header">
     <div class="topLogo"></div>
@@ -55,7 +55,7 @@
   <div class="topSlider">
 
         <!-- Slides Container -->
-        <div u="slides" id="slidecontain" style="position: absolute; top: 90px; width: 1180px; height: 400px; overflow: hidden;">
+        <div u="slides" id="slidecontain" style="position: absolute; top: 90px; width:1180px; height: 400px; overflow: hidden;">
             <div>
                 <img src="http://www.jetsetmag.com/ads/index/top/ad1.jpg" class="topslidewidth" />
                 <div u="thumb">
@@ -269,9 +269,9 @@
 
 
   <!--WEB FEATURE Column-->
-    <div class="grid-3">
+    <div class="grid-3" id="getColHeight">
 
-      <ul class="articleImages">
+      <ul class="articleImages" id="firstFeatCol">
 
           <li>
               <a href="http://prevostcar.com/"><img class="articleImg" src="images/prevost.jpg" />
@@ -321,28 +321,92 @@
               </div></a>
           </li>
 
+          <li>
+              <a href="http://prevostcar.com/"><img class="articleImg" src="images/prevost.jpg" />
+              <div class="featureCaption">
+                  <p class="captionTitle">Prevost</p>
+                  <p class="captionText">description</p>
+              </div></a>
+          </li>
+
+          <li>
+              <a href="http://www.trov.com/"><img class="articleImg" src="images/trov.jpg" />
+              <div class="featureCaption">
+                  <p class="captionTitle">Trōv</p>
+                  <p class="captionText">description</p>
+              </div></a>
+          </li>
+
+          <li>
+              <a href="http://www.beechcraft.com/"><img class="articleImg" src="images/beechcraft.jpg" />
+              <div class="featureCaption">
+                  <p class="captionTitle">Beechcraft</p>
+                  <p class="captionText">description</p>
+              </div></a>
+          </li>
+
       </ul>
+
+
+<div class="featureFloat">
+<div class="float" style="top: 0px; width:inherit; display:block;"><!-- Floating Box -->
+
+      <ul class="articleImages">
+
+          <li>
+              <a href="http://www.eurocopterusa.com/index/index.asp"><img class="articleImg" src="images/eurocopter.jpg" />
+              <div class="featureCaption">
+                  <p class="captionTitle">Eurocopter</p>
+                  <p class="captionText">description</p>
+              </div></a>
+          </li>
+
+          <li>
+              <a href="http://www.marcjacobs.com/"><img class="articleImg" src="images/mj.jpg" />
+              <div class="featureCaption">
+                  <p class="captionTitle">Marc Jacobs</p>
+                  <p class="captionText">description</p>
+              </div></a>
+          </li>
+
+          <li>
+              <a href="http://www.dragonandthepearls.com/"><img class="articleImg" src="images/dragon-pearls.jpg" />
+              <div class="featureCaption">
+                  <p class="captionTitle">Dragon and the Pearl</p>
+                  <p class="captionText">description</p>
+              </div></a>
+          </li>
+
+      </ul>
+
+    </div>
+  </div>
 
     </div>
   <!-- END WEB FEATURE Column -->
 
 
-  <!-- First Article Column -->
+    <!-- Content -->
+       <!-- First Article Column -->
   <div class="grid-8">
 
 
     <article class="articleContainer">
     <section class="articleTitle">The Five A's of Fractional Jet Ownership</section>
     <section class="articleContent">
-      <span class="articleSub"></span>
-      <span class="articleBy"></span>
       
+      <div class="bigImg"><img src="images/fractional-jet-ownership-1.jpg" alt="Fractional Jet Ownership" style="width:100%" /></div>
+      <p class="articleSub">Subtitle</p>
+      <p class="articleBy">By: xyz</p>
+
       <p>The skies are starting to brighten for private jet ownership. According to the most recent data available, year-over-year industry sales are up 14 percent among the top fractional program providers. At Flexjet, we are pleased that our fractional jet sales are up 45 percent, with a 25 percent market share. While the recession has impacted our industry, the value proposition for private aviation has always remained. Our owners personally understand the enormous convenience and unparalleled productivity that private jets offer. Whether it's a weekend getaway to Aspen or a business trip visiting multiple cities in a single day, with as little as 10 hours' notice travelers may be ready for take off.</p>
       
       <p>Once in flight, private jets are certified to fly higher than commercial planes, enabling them to fly faster and arrive at destinations more quickly than even commercial flights. They are able to better pressurize their cabins, thus minimizing the effects of jet lag to ensure guests arrive refreshed and less fatigued. Best of all, private aircraft can access more than 10 times the number of airports served by commercial airlines (5,000 vs. 450) to efficiently deliver travelers exactly where they need to be — faster and with the levels of security and discretion many require.</p>
       
       <p>Among the number of private jet travel options out there today, fractional jet ownership remains as relevant as ever due to its inherent ability to provide added value on so many crucial levels. Owners are able to purchase only the amount of aircraft needed — starting at 1/16 of an aircraft for 50 hours of flight time annually — with each flight tailored specifically to their requirements and managed personally by their chosen fractional program provider. Each owner has the option to utilize multiple aircraft at the same time, which can prove critical when moving large groups. Ultimately, those who invest in fractional jet ownership need a level of control and flexibility that simply cannot be matched by non-ownership aviation solutions.</p>
       
+      <div class="bigImg"><img src="images/fractional-jet-ownership-2.jpg" alt="Fractional Jet Ownership" style="width:100%" /></div>
+
       <p>Now, as cautious optimism continues to spread, we are seeing a growth trend. A number of those who left during the economic crisis now have the financial security to re-enter the market. Yet, today's fractional customer has changed. Amid the growing transparency and availability of information, customers are becoming better educated about aviation management services and products. They are savvier than ever before, looking for true value and trusted allies to help them make a wise investment. For this reason, we have identified five essential criteria to consider when choosing a private aviation solutions provider. We call them the "Five A's of Fractional Jet Ownership."</p>
 
       <p><strong>Age:</strong><br/>It is critical to know the average age of the company's collection of aircraft, which impacts everything from inclusion of the latest technological advances and the highest safety standards, to overall cleanliness. For example, Flexjet offers access to the youngest aircraft in the fractional jet ownership industry, averaging approximately five years of age.</p>
@@ -351,9 +415,15 @@
 
       <p><strong>Attention:</strong><br/>To the details, that is. When considering a fractional jet company, don't just look at the aircraft, but also the level of personal service provided. This also pertains to concierge services provided when planning for a trip. A couple of years ago we invested significantly to create the innovative Customer Account Management program. Under this new system, all of our client-facing departments were consolidated to provide customers with a single point person to streamline all requests. Managers handle everything from booking flights and on-site transportation to coordinating catering requests and checking weather conditions to make sure owners enjoy a flawless travel experience each and every time they fly.</p>
 
+      <div class="bigImg"><img src="images/fractional-jet-ownership-3.jpg" alt="Fractional Jet Ownership" style="width:100%" /></div>
+
       <p><strong>Affiliation</strong><br>There is a distinct advantage to working with a company that is part of an aircraft manufacturer. They have a longer history working in the aviation industry and all of the learning that comes with that collective experience. Flexjet is a good example of this. As a subsidiary of Bombardier — the world's largest manufacturer of business jets with a legacy spanning more than 100 years — Flexjet is tied to each aircraft from inception to service. Additionally, we oftentimes are the first to provide access to the latest jets, including the new Learjet 70 and Learjet 85 aircraft being introduced by Bombardier in 2013.</p>
 
       <p><strong>Advisors:</strong><br/>Fractional jet ownership is a complex business requiring a significant financial investment. It is important to work with a trusted advisor to help navigate the various options available before taking off. Because Flexjet has the most comprehensive portfolio of products in the industry, our consultants are in a unique position to help identify and custom build the best solutions for our owners … not just the solution at hand.</p>
+
+      <p>During his career of more than 30 years in the aviation industry, Fred Reid has earned an international reputation as a leader who has grown and strengthened businesses. Fred's executive management background includes experience at four of the world's major airlines, including president of Delta and Lufthansa, and as founding chief executive officer of Virgin America.</p>
+
+      <p><strong>Advisors:</strong><br />Fractional jet ownership is a complex business requiring a significant financial investment. It is important to work with a trusted advisor to help navigate the various options available before taking off. Because Flexjet has the most comprehensive portfolio of products in the industry, our consultants are in a unique position to help identify and custom build the best solutions for our owners … not just the solution at hand.</p>
 
       <p>During his career of more than 30 years in the aviation industry, Fred Reid has earned an international reputation as a leader who has grown and strengthened businesses. Fred's executive management background includes experience at four of the world's major airlines, including president of Delta and Lufthansa, and as founding chief executive officer of Virgin America.</p>
 
@@ -366,12 +436,11 @@
   <!-- END First Article Column -->
 
 
+    <!-- Content -->
 
   <div class="grid-5">
 
-    <div class="floating-box">
-
-<!--side ad--><div class="side-ad">
+<!--scrolling side ad--><div class="side-ad">
 
         <!-- ThumbnailNavigator Skin Begin -->
         <div u="thumbnavigator" class="slider1-T" style="position: static; width: 350px; height: 350px; ">
@@ -387,62 +456,90 @@
         </div>
         <!-- ThumbnailNavigator Skin End -->
 
-<!--side ad-->
+    </div><!-- END Scrolling SideAd-->
+
+    <!--roundabout-->
+
+    <div class="issue-roundabout"><!-- Issue Roundabout -->
+
+        <ul class="issueRnd">
+          <li><img src="http://www.jetsetmag.com/covers/23.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/22.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/21.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/20.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/19.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/18.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/17.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/16.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/15.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/14.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/13.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/12.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/11.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/10.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/9.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/8.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/7.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/6.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/5.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/4.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/3.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/2.jpg" /></li>
+          <li><img src="http://www.jetsetmag.com/covers/1.jpg" /></li>
+        </ul>
+    </div><!-- End Issue Roundabout -->
+
+<br/>
+
+<div class="floatWrap"><!-- Floating Box Wrapper -->
+<div class="float" style="top: 0px;"><!-- Floating Box -->
+
+  <img src="images/burberry1.jpg" class="staticAd" /> <!--static ad-->
+  <img src="images/burberry2.jpg" class="staticAd" /> <!--static 350 x 95 ad-->
+
+</div><!-- End Floating Box -->
+</div><!-- End Floatwrap-->
 
 
-    </div><!-- END SideAd-->
 
-    <div class="issue-roundabout"><p>Issue Roundabout</p>
-
-      <!--roundabout-->
-
-      <!-- END roundabout-->
-
-
-
-    </div>
-
-    </div><!-- End Floating Box -->
-
-  </div>
-  <!-- End grid-5 -->
+</div><!-- End grid-5 -->
 
 <footer class="footer"/>
 
   <section class="footerLinks grid-4">
-    <span class="footerTitle">Link Set Title</span>
-    <span class="footerLink"><a href="">link</a></span>
-    <span class="footerLink"><a href="">link</a></span>
-    <span class="footerLink"><a href="">link</a></span>
-    <span class="footerLink"><a href="">link</a></span>
-    <span class="footerLink"><a href="">link</a></span>
+    <span class="footerTitle">Links</span>
+    <span class="footerLink"><a href="">Home</a></span>
+    <span class="footerLink"><a href="">About</a></span>
+    <span class="footerLink"><a href="">Advertise</a></span>
+    <span class="footerLink"><a href="">Subscribe</a></span>
+    <span class="footerLink"><a href="">Contact</a></span>
   </section>
 
   <section class="footerLinks grid-4">
-    <span class="footerTitle">Link Set Title</span>
-    <span class="footerLink"><a href="">link</a></span>
-    <span class="footerLink"><a href="">link</a></span>
-    <span class="footerLink"><a href="">link</a></span>
-    <span class="footerLink"><a href="">link</a></span>
-    <span class="footerLink"><a href="">link</a></span>
+    <span class="footerTitle">Sections</span>
+    <span class="footerLink"><a href="">Marketplace</a></span>
+    <span class="footerLink"><a href="">Newsroom</a></span>
+    <span class="footerLink"><a href="">Top 5</a></span>
+    <span class="footerLink"><a href="">Jetset TV</a></span>
+    <span class="footerLink"><a href="">Shop</a></span>
   </section>
 
   <section class="footerLinks grid-4">
-    <span class="footerTitle">Link Set Title</span>
-    <span class="footerLink"><a href="">link</a></span>
-    <span class="footerLink"><a href="">link</a></span>
-    <span class="footerLink"><a href="">link</a></span>
-    <span class="footerLink"><a href="">link</a></span>
-    <span class="footerLink"><a href="">link</a></span>
+    <span class="footerTitle">Content</span>
+    <span class="footerLink"><a href="">Categories</a></span>
+    <span class="footerLink"><a href="">Interviews</a></span>
+    <span class="footerLink"><a href="">Events</a></span>
+    <span class="footerLink"><a href="">E-News</a></span>
+    <span class="footerLink"><a href="">Issue Archive</a></span>
   </section>
 
   <section class="footerLinks grid-4">
-    <span class="footerTitle">Link Set Title</span>
-    <span class="footerLink"><a href="">link</a></span>
-    <span class="footerLink"><a href="">link</a></span>
-    <span class="footerLink"><a href="">link</a></span>
-    <span class="footerLink"><a href="">link</a></span>
-    <span class="footerLink"><a href="">link</a></span>
+    <span class="footerTitle">Meta</span>
+    <span class="footerLink"><a href="">Sitemap</a></span>
+    <span class="footerLink"><a href="">Privacy Policy</a></span>
+    <span class="footerLink"><a href="">View Current Issue</a></span>
+    <span class="footerLink"><a href="">Login/Logout</a></span>
+    <span class="footerLink"><a href="">My Account</a></span>
   </section>
 
 
@@ -456,9 +553,14 @@
 
 
 <!--Additional Scripts-->
-<script src="http://dropthebit.com/demos/stickyfloat/stickyfloat.js"></script>
+<script src="js/stickyfloat.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.event.drag-2.2.js" type="text/javascript"></script>
+<script src="js/jquery.event.drop-2.2.js" type="text/javascript"></script>
+<script src="js/jquery.roundabout.js"></script>
 <script type="text/javascript" src="js/beautiful.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+
 
 
 <!--Additional Scripts-->

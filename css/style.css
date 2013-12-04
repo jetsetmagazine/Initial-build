@@ -25,45 +25,45 @@ p{padding:15px;}
 a{color: #444; text-decoration: none;}
 a:hover{color: #999; text-decoration: underline;}
 
+element {transition: all 3s;-moz-transition: all 3s;-webkit-transition: all 3s;-o-transition: all 3s;} 
 
-#sidebar {
-  width: 120px;
-  background-color: #ccc;
-  min-height: 200px;
-  margin: 10px 0 15px 0; /*controls the cutoff of the top and bottom limitations*/
-  padding: 15px 10px;
-  float: left; /* float right for a right aligned sidebar */
-}
-#wrapper {
-  width: 940px; /* MUST HAVE WIDTH SET, should be the sidebar width + main width */
-  margin-left: auto;
-  margin-right: auto;
-}
+#sidebar { width: 120px; background-color: #ccc; min-height: 200px; margin: 10px 0 15px 0; /*controls the cutoff of the top and bottom limitations*/ padding: 15px 10px; float: left; /* float right for a right aligned sidebar */ }
+#wrapper { width: 940px; /* MUST HAVE WIDTH SET, should be the sidebar width + main width */ margin-left: auto;margin-right: auto;}
 
 /******* End Defaults *******/
 
 /**** Browser Hacks ****/
 
 
-div[u="thumbnavigator"] > div{width: 350px!important; left: 0px!important;}
 
 /**** End Browser Hacks ****/
 
 /*******  Header *******/
 
-.header {height: 85px; background-color: #fff;}
+.headerBar {height: 85px; background-color: #fff;}
 .topLogo{background-image: url('../images/jetset.png'); width: 230px; height: 60px; position: relative; top:10px; left:10px;}
-.topSlider{}
+.headLinkBox{width: auto; float: right; height: 150px;}
+
+.topSlider{width: 1180px}
+.topSlider > div{height: 100%; width: 1180px;}
+div.topSlider > div{height: 100%; width: 1180px;}
+div[u="slides"] {width: 1180px;}
+div[u="slides"] > div {width: 1180px;}
+div[u="slides"] > div > div {width: 1180px;}
+
+/*** side ad ***/
 .topslidewidth{width: 1180px;}
-#slidecontain{height: 320px;}
+#slidecontain{height: 320px; width: 1180px;}
+div[u="thumbnavigator"] > div{width: 350px; left: 0px;}
+
 
 /******* End Header *********/
 
 
 /******* Article Captions ********/
 
-.imageCaption{display:block;position:absolute;background:#d5d5d5;width:100%;color:#444;height: 100%;opacity: 0.85}
-.featureCaption{display:block;position:absolute;background:#d5d5d5;width:100%;color:#444;height: 100%;opacity: 0.85;}
+.imageCaption{display:none;position:absolute;background:#d5d5d5;width:100%;color:#444;height: 99%;opacity: 0.85; bottom: 3px;}
+.featureCaption{display:none;position:absolute;background:#fafafa;width:100%;color:#444;height: 100%;opacity: 0.92; top:-3px;}
 .captionTitle{font-family: 'Italiana', serif; font-size: 22px; padding-bottom: 3px;}
 .captionText{font-family: 'oxygen', serif; font-size: 13px; padding-top:7px; height: 50px; overflow: hidden;}
 .byline{padding-top: 0px; padding-bottom: 5px; font-size: 11px; border-bottom: solid 1px #777;}
@@ -73,7 +73,6 @@ div[u="thumbnavigator"] > div{width: 350px!important; left: 0px!important;}
 .articleImg{width: 100%;}
 
 /******* End Article Captions ********/
-
 
 /****** Navigation ******/
 
@@ -98,20 +97,25 @@ margin-top: 10px; border: solid 1px #bbbcbc;
 .catNav{display: none; float: left; position: relative; height: 45px; width: 100%; border: solid 1px #d5d5d5;}
 .catNav li{font-size: 10px; font-family: oxygen; display: inline; padding: 0px; margin: 0px;padding-right: 0px; margin-right: 0px; margin-left: 0px; border: none; }
 .catNavFade{display:none; height: 45px; position: relative; z-index: 9000;}
-.catContain{float: left; width: 70px; margin-left: 6px;}
+.catContain{float: left; width: 68px; margin-left: 6px; text-align: center;padding-top: 5px;transition: all 1s; -moz-transition: all 1s;-webkit-transition: all 1s;-o-transition: all 1s;}
+.catContain:hover{width: 75px; margin-right: 5px; padding-bottom: 10px; background: #fefefe; padding:5px;}
 .catImg{display: none;}
 #category{cursor: pointer;}
+/*.activecat{width: 75px; margin-right: 5px; padding-bottom: 10px; background: #fefefe; padding:5px;}*/
+.catLink{margin-bottom: 10px;}
+
+.roundaboutBox{height: 160px;width: 100%;margin-top: 25px;margin-left: -15px;}
 /*************************** End Category Navigation *************************************/
 
 /****** End Navigation ******/
-
 
 /********** Article Content ************/
 
 .articleContainer{background:#f9f9f9; border: solid 1px #ececec;  }
 .articleContainer p{color:#444; font-family: oxygen, sans-serif; font-size: 14px; line-height: 20px;  }
 
-.articleTitle{font-family: italiana, sans-serif; font-size: 24px; text-align: center;}
+.articleTitle{font-family: italiana, sans-serif; font-size: 24px; text-align: center; margin-top: 20px;}
+.bigImg{width: 95%; padding:15px;}
 
 /********** End Article Content ************/
 
@@ -130,7 +134,7 @@ margin-top: 10px; border: solid 1px #bbbcbc;
 
 /******** Roundabout *********/
 
-ul.issueRnd {list-style: none;padding: 0;margin: 0 auto;width: 250px;height: auto;float: left; margin-top: 25px;margin-left: -5px;}
+ul.issueRnd {list-style: none;padding: 0;margin: 0 auto;width: 265px;height: auto;float: left; margin-top: 25px;margin-left: -5px;}
 .issueRnd ul li {height: 115px!important;width: 150px!important;text-align: center;cursor: pointer;}
 .issueRnd ul li.roundabout-moveable-item{width: 100%; height: 100%;}
 .issueRnd ul li.roundabout-in-focus {cursor: default; width: 115px; height: 150px;}
@@ -145,7 +149,6 @@ background: linear-gradient(135deg,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */}
 
 /********** End Roundabout ***********/
-	
 
 /****** Floating **********/
 
@@ -154,6 +157,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', end
 
 /******** End Float *********/
 
+
+/******** Marketplace **********/
+.mktImg{opacity: 0.3;}
+.mktImg:hover{opacity: 0.9;}
+.mktCatContain{float: left; width: 125px; margin-left: 6px; text-align: center;padding-top: 15px;transition: all 1s; -moz-transition: all 1s;-webkit-transition: all 1s;-o-transition: all 1s;}
+.mktCatContain:hover{float: left; width: 125px; margin-left: 6px; text-align: center;padding-top: 5px;}
+.mktCatContain a{text-decoration: none;}
+.mktCatContain a:hover{text-decoration: none;}
+
+.marketplaceNav{float: left; position: relative; height: 95px; width: 100%; border: solid 1px #d5d5d5; margin-top: 5px;background: #fefefe;}
+.marketplaceNav li{font-size: 10px; font-family: oxygen; display: inline; padding: 0px; margin: 0px;padding-right: 0px; margin-right: 0px; margin-left: 0px; border: none; }
+#sdt_menu li{font-size: 10px; font-family: oxygen; display: inline; padding: 0px; margin: 0px;padding-right: 0px; margin-right: 0px; margin-left: 0px; border: none; }
+.marketplaceNavFade{ height: 145px; position: relative; z-index: 9000;}
+.mktLink{display: none;}
+.mktLink:hover{text-decoration: none; color: #000;}
+
+.mktSearchContain{height: 350px; width: 100%; background: #fefefe; float: left; border: solid 1px #d5d5d5;}
+#aviation, #autos, #art, #heli, #real, #yachts, #motorcycles, #travel, #watches {display: none;}
 /********************************************************************************************* 
 
 1.  Default / for Grid 1200px             
@@ -165,7 +186,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', end
 .staticAd {width: 100%;}
 
 .i{width: 350px!important; height: 350px!important; margin-bottom: 10px;}
-
 
 /********************************************************************************************* 
 
@@ -193,6 +213,8 @@ div[u="thumbnavigator"] > div{max-width: 275px!important; left: 0px!important;}
 .slider1-T{width: 200px!important; height: 275px!important;}
 
 ul.issueRnd {width: 175px;}
+
+.bigImg{width: 95%; padding:10px;}
 
 
 }
@@ -224,6 +246,8 @@ ul.issueRnd {width: 175px;}
 
 ul.issueRnd {width: 95px;}
 
+.bigImg{width: 90%; padding:5px;}
+
 }
  
  
@@ -236,24 +260,39 @@ ul.issueRnd {width: 95px;}
 
 @media only screen and (max-width: 719px) {
 
- .topslidewidth{width: 415px;}
+.header{background: #f5f5f5!important;}
 
- .imageCaption p{font-family: 'Italiana', serif; font-size: 32px}
+.topslidewidth{max-width: 300px;}
 
-.mainNav{height: 230px;}
+.imageCaption p{font-family: 'Italiana', serif; font-size: 32px}
+
+.mainNav{height: 315px;}
 .mainNav ul {text-align: center;}
 .mainNav ul li{display: block;}
 
 .mainNav li a{text-decoration: none; color: #888; font-size: 9px; padding: 2px;}
 .mainNav li a:hover{color: #111}
 
-.topSlider{height: 150px;}
+.topSlider{height: 105px; width: 290px;}
 
-div[u="thumbnavigator"] > div{max-width: 490px!important; left: 0px!important; text-align: center;}
+div#headerHeight.grid-16{width: 100%!important;}
 
-div[u="thumbnavigator"]{margin-left: 12.5%;}
+div[u="thumbnavigator"] > div{max-width: 350px!important; width:100%; left: 0px!important; text-align: center;}
 
-.topSlider > div{max-width:715px; height: 140px!important;}
+div[u="thumbnavigator"]{width: 100%;}
+
+div[u="slides"] > div{height: 105px!important; max-height: 105px; width: 350px!important; left: 0px!important;}
+div.topSlider > div{height: 90px!important; width: 350px!important;}
+div[u="slides"] > div {width: 350px!important;}
+div[u="slides"] > div > div {width: 350px!important;}
+
+
+.topSlider > div{width: 350px!important; left: 0px!important;height: 90px!important;}
+.topSlider.div{width: 350px!important; left: 0px!important;height: 90px!important;}
+.topSlider > div > div{width: 350px!important; left: 0px!important;height: 90px!important;}
+#slidecontain{width: 300px!important; height: 100px!important;}
+
+.topSlider > div{max-width:715px; width:100%; height: 140px!important;}
 
 p.captionTitle{font-size: 20px;}
 p.byline{font-size: 18px}
@@ -262,4 +301,54 @@ p.captionText{font-size: 14px;}
 .featureFloat{position: relative!important;}
 .floatWrap{position: relative!important;}
 
+.mainNav li{display: inline; text-transform: uppercase; font-family: 'oxygen', serif; font-size: 24px; border: none; padding-right: 0; }
+.mainNav li a{text-decoration: none; color: #444;}
+.mainNav li a:hover{color: #111}
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+
+div[u="thumbnavigator"] > div > div{max-width: 230px!important; width:100%; height:100%; left: 0px!important; text-align: center;}
+div[u="thumbnavigator"] > div{max-width: 230px!important; width:100%; height:100%; left: 0px!important; text-align: center;}
+.slider1-T{width: 200px!important; height: 200px!important;}
+ul.issueRnd{width: 100px;}
+div[u="slider"]{margin-top: 100px;}
+
+.topSlider{height: 105px; width: 130px;}
+.topSlider > div{height: 105px; width: 130px!important;}
+div.topSlider > div{height: 105px; width: 130px!important;}
+.header{background: #f5f5f5!important;}
+
+#slidecontain{width: 235px!important; height: 100px!important;}
+
+.topslidewidth{width:235px!important; max-width: 235px!important; max-height: 100px;}
+
+div[u="slides"] > div > div {height: 100px!important}
+
+.mainNav{margin-top: -15px; height: 75px; overflow: scroll;}
+
+.footer, .copyright {background: none; }
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
 }

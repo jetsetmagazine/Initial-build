@@ -1,0 +1,192 @@
+
+/* @group Global Plugin Styles */
+
+#cp-global {
+	color: #444;
+	margin-bottom: 35px;
+	width: 98%;
+}
+
+#cp-global .postbox {
+	position: relative;
+	overflow: hidden;
+	background-color: #000;
+	padding: 10px;
+}
+
+#cp-global .postbox h3 {
+	margin: -10px -10px 0;
+	cursor: default;
+}
+
+#cp-global a {
+	text-decoration: none;
+}
+
+#cp-global a.orange-link {
+	color: #d54e21;
+}
+
+#cp-global a.orange-link:hover {
+	color: #3c627f;
+}
+
+#cp-global a.fancylink {
+	color: red;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#cp-global, #cp-global .postbox, #cp-global .postbox ul, #cp-global .postbox p, #cp-global p {
+	margin-top: 10px;
+}
+
+#cp-global .left-content {
+	width: 28%;
+	float: left;
+	padding-right: 10px;
+	margin-top: 10px;
+	position: relative;
+}
+
+#cp-global .left-content h4 {
+	margin: 2px 0 0;
+	padding: 0 0 4px;
+	letter-spacing: 0;
+	color: #d54e21;
+}
+
+#cp-global .left-content p {
+	margin-top: 0;
+}
+
+#cp-global .left-content ul {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+#cp-global .left-content li {
+	color: #536e90;
+	margin: 0 5px;
+	padding: 1px 0;
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+#cp-global .right-content li {
+	list-style-type: none;
+}
+
+#cp-global .right-content {
+	width: 63%;
+	float: left;
+	margin-left: 3%;
+	border-left: 1px solid #e6e6e6;
+	padding-left: 10px;
+	padding-bottom: 50px;
+}
+
+#cp-global .cp-clearer {
+	clear: both;
+}
+
+#cp-global select {
+	vertical-align: baseline;
+	width: 176px;
+	margin-right: 5px;
+}
+
+#cp-global .right-content input.checkbox {
+	margin-right: 5px;
+	vertical-align: middle;
+	width: auto;
+	border-style: none;
+}
+
+#cp-global .right-content input {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	margin-right: 7px;
+	width: 177px;
+	color: #555;
+	margin-left: 5px;
+}
+
+#cp-global .right-content input:focus {
+	background-color: #000;
+}
+
+#cp-global ul.cpmobile-make-li-italic li {
+	font-style: italic;
+}
+
+/* @end */
+
+/* @group Global H3 Icons */
+
+#cp-global h3 span {
+	background: no-repeat 0 0;
+	height: 16px;
+	margin-right: 5px;
+	width: 16px;
+	display: block;
+	float: left;
+	bottom: 2px;
+	position: relative;
+}
+
+#cp-global h3 span.global-settings {
+	background: url(../images/h3_icons/general.png);
+}
+
+#cp-global h3 span.advanced-options {
+	background: url(../images/h3_icons/advanced.png);
+}
+
+#cp-global h3 span.push-options {
+	background: url(../images/h3_icons/push.png);
+}
+
+#cp-global h3 span.style-options {
+	background: url(../images/h3_icons/style.png);
+}
+
+#cp-global h3 span.icon-options {
+	background: url(../images/h3_icons/iconpool.png);
+}
+
+#cp-global h3 span.page-options {
+	background: url(../images/h3_icons/page.png);
+}
+
+#cp-global h3 span.adsense-options {
+	background: url(../images/h3_icons/adsense.png);
+}
+
+#cp-global h3 span.plugin-options {
+	background: url(../images/h3_icons/plugin.png);
+}
+
+#cp-global h3 span.rss-head {
+	background: url(../images/h3_icons/rss.png) 0 1px;
+}
+
+#cp-global h3 span.news-head {
+	background: url(../images/h3_icons/megaphone.png) 0 1px;
+}
+
+/* @end */
+
+/* @group Save/Reset */
+
+input#cp-button {
+	border: 2px solid #b2cfe4;
+	float: left;
+	margin-right: 10px;
+}
+
+input#cp-button-reset {
+}
+
+
+/* @end */

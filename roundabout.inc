@@ -1,0 +1,88 @@
+		<script src="js/jquery.event.drag-2.2.js" type="text/javascript"></script>
+		<script src="js/jquery.event.drop-2.2.js" type="text/javascript"></script>
+		<script src="js/jquery.roundabout.js"></script>
+
+			<style>
+			ul.issueRnd {
+				list-style: none;
+				padding: 0;
+				margin: 0 auto;
+				width: 265px;
+				height: auto;
+			}
+			.issueRnd ul li {
+				height: 115px!important;
+				width: 150px!important;
+				text-align: center;
+				cursor: pointer;
+			}
+			.issueRnd ul li.roundabout-in-focus {
+					cursor: default;
+				}
+
+		</style>
+
+
+</head>
+<body>
+<div class="roundaboutBox">
+
+		<ul class="issueRnd">
+			<li><span><img src="http://www.jetsetmag.com/covers/23.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/22.jpg" /></span></li>
+			<li><img src="http://www.jetsetmag.com/covers/21.jpg" /></li>
+			<li><img src="http://www.jetsetmag.com/covers/20.jpg" /></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/19.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/18.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/17.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/16.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/15.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/14.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/13.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/12.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/11.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/10.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/9.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/8.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/7.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/6.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/5.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/4.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/3.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/2.jpg" /></span></li>
+			<li><span><img src="http://www.jetsetmag.com/covers/1.jpg" /></span></li>
+		</ul>
+</div>
+		<script>
+			$(document).ready(function() {
+				$('.issueRnd').roundabout({
+				      	bearing: 2.0,
+						tilt: 0.5,
+						minZ: 20,
+						maxZ: 280,
+						minOpacity: 0.0,
+						maxOpacity: 1.0,
+						minScale: 0.4,
+						maxScale: 1.0,
+						duration: 350,
+						clickToFocus: true,
+						reflect: true,
+						floatComparisonThreshold: 1.021,
+						autoplay: false,
+						enableDrag: true,
+						enableDrop: true,
+						dropDuration: 100.0,
+						dropEasing: "linear",
+						dropAnimateTo: "nearest",
+						dragAxis: "x",
+						dragFactor: 4,
+						triggerFocusEvents: false,
+						triggerBlurEvents: false,
+						responsive: true,
+						focusBearing: 1
+
+
+				});
+
+			});
+		</script>

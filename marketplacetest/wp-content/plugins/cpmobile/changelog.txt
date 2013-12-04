@@ -1,0 +1,25 @@
+Changelog:
+11/05/2012 Release 1.1
+- Fixed: Configure custom post type & taxonomy URL’s from clasipress settings
+- Fixed: In some sites, custom fields are not correctly shown in Ad page
+- Fixed: In some sites, ad detail page always say “Expired Ad”, even when is not.
+- Added: Blog entries
+- Added: Map privacy protection in single ad
+- Improved: Geocoding system
+- Fixed: Ad page didn’t show the correct custom fields
+- Fixed: Conflict with ACF plugin
+- Fixed: ‘Load more entries…’ was broken in WP 3.4 due to pagination changes in WP.
+
+04/17/2012 Release 1.0.1
+- Fixed: Pages added from the plugin config page doesn’t work
+03/27/2012 Release 1.0
+
+- First renamed version: WPTouch to CPMobile
+- App domain changed to ‘cpmobile’
+- Fixed: removed conflict with WPTouch updates
+- Added: ClassiPress compatibility for 3.1.6, 3.1.7 and 3.1.8
+- Fixed: some minor bugs
+- Improved: no registration allowed from the mobile app
+- Fixed: when comments on post not allowed, the map is not shown
+10/12/2011 Release 1.9.36
+- First release

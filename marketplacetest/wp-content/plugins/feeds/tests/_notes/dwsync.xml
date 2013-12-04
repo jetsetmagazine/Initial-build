@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="parser_csv.test" server="ftp.jetsetmag.com" local="129739864140000000" remote="129739938000000000" />
+<file name="feeds_processor_term.test" server="ftp.jetsetmag.com" local="129739864130000000" remote="129739938000000000" />
+<file name="feeds_parser_sitemap.test" server="ftp.jetsetmag.com" local="129739864130000000" remote="129739938000000000" />
+<file name="feeds_mapper_taxonomy.test" server="ftp.jetsetmag.com" local="129739864130000000" remote="129739938000000000" />
+<file name="feeds_mapper.test" server="ftp.jetsetmag.com" local="129739864130000000" remote="129739938000000000" />
+<file name="feeds_processor_user.test" server="ftp.jetsetmag.com" local="129739864140000000" remote="129739938000000000" />
+<file name="feeds_mapper_link.test" server="ftp.jetsetmag.com" local="129739864140000000" remote="129739938000000000" />
+<file name="common_syndication_parser.test" server="ftp.jetsetmag.com" local="129739864140000000" remote="129739938000000000" />
+<file name="feeds_mapper_file.test" server="ftp.jetsetmag.com" local="129739864130000000" remote="129739938000000000" />
+<file name="feeds_mapper_field.test" server="ftp.jetsetmag.com" local="129739864130000000" remote="129739938000000000" />
+<file name="feeds_tests.info" server="ftp.jetsetmag.com" local="129739864130000000" remote="129739938000000000" />
+<file name="feeds_scheduler.test" server="ftp.jetsetmag.com" local="129739864130000000" remote="129739938000000000" />
+<file name="feeds_date_time.test" server="ftp.jetsetmag.com" local="129739864130000000" remote="129739938000000000" />
+<file name="feeds_tests.module" server="ftp.jetsetmag.com" local="129739864130000000" remote="129739938000000000" />
+<file name="feeds_fetcher_file.test" server="ftp.jetsetmag.com" local="129739864130000000" remote="129739938000000000" />
+<file name="feeds_processor_node.test" server="ftp.jetsetmag.com" local="129739864130000000" remote="129739938000000000" />
+<file name="feeds_mapper_date.test" server="ftp.jetsetmag.com" local="129739864130000000" remote="129739938000000000" />
+<file name="feeds_parser_syndication.test" server="ftp.jetsetmag.com" local="129739864130000000" remote="129739938000000000" />
+<file name="feeds.test" server="ftp.jetsetmag.com" local="129739864130000000" remote="129739938000000000" />
+<file name="common_syndication_parser.test" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="feeds.test" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="feeds_date_time.test" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="feeds_fetcher_file.test" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="feeds_mapper.test" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="feeds_mapper_date.test" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="feeds_mapper_field.test" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="feeds_mapper_file.test" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="feeds_mapper_link.test" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="feeds_mapper_taxonomy.test" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="feeds_parser_sitemap.test" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="feeds_parser_syndication.test" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="feeds_processor_node.test" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="feeds_processor_term.test" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="feeds_processor_user.test" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="feeds_scheduler.test" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="feeds_tests.info" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="feeds_tests.module" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="parser_csv.test" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+</dwsync>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="FeedsParser.inc" server="ftp.jetsetmag.com" local="129739864140000000" remote="129739938000000000" />
+<file name="FeedsFetcher.inc" server="ftp.jetsetmag.com" local="129739864140000000" remote="129739938000000000" />
+<file name="FeedsProcessor.inc" server="ftp.jetsetmag.com" local="129739864140000000" remote="129739938000000000" />
+<file name="FeedsSitemapParser.inc" server="ftp.jetsetmag.com" local="129739864140000000" remote="129739938600000000" />
+<file name="FeedsHTTPFetcher.inc" server="ftp.jetsetmag.com" local="129739864140000000" remote="129739938600000000" />
+<file name="FeedsPlugin.inc" server="ftp.jetsetmag.com" local="129739864140000000" remote="129739938600000000" />
+<file name="FeedsUserProcessor.inc" server="ftp.jetsetmag.com" local="129739864140000000" remote="129739938600000000" />
+<file name="FeedsTermProcessor.inc" server="ftp.jetsetmag.com" local="129739864140000000" remote="129739938600000000" />
+<file name="FeedsCSVParser.inc" server="ftp.jetsetmag.com" local="129739864140000000" remote="129739938600000000" />
+<file name="FeedsSyndicationParser.inc" server="ftp.jetsetmag.com" local="129739864140000000" remote="129739938600000000" />
+<file name="FeedsFileFetcher.inc" server="ftp.jetsetmag.com" local="129739864140000000" remote="129739938600000000" />
+<file name="FeedsNodeProcessor.inc" server="ftp.jetsetmag.com" local="129739864140000000" remote="129739938600000000" />
+<file name="FeedsSimplePieParser.inc" server="ftp.jetsetmag.com" local="129739864140000000" remote="129739938600000000" />
+<file name="FeedsOPMLParser.inc" server="ftp.jetsetmag.com" local="129739864140000000" remote="129739938600000000" />
+<file name="FeedsCSVParser.inc" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="FeedsFetcher.inc" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="FeedsFileFetcher.inc" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="FeedsHTTPFetcher.inc" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="FeedsNodeProcessor.inc" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="FeedsOPMLParser.inc" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="FeedsParser.inc" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="FeedsPlugin.inc" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="FeedsProcessor.inc" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="FeedsSimplePieParser.inc" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="FeedsSitemapParser.inc" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="FeedsSyndicationParser.inc" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="FeedsTermProcessor.inc" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+<file name="FeedsUserProcessor.inc" server="142.4.17.153/public_html/" local="129739356000000000" remote="129739356000000000" />
+</dwsync>
