@@ -96,6 +96,8 @@ if(window.location.hash === '#categories'){
   $(".catImg").hide(); 
 }; 
 
+
+
 /* Banner Slider */
   jQuery(document).ready(function ($) {$('#slider1_container').jssorSlider({
     $AutoPlay: true,
@@ -125,3 +127,11 @@ if(window.location.hash === '#categories'){
     }
     });
     });
+
+
+
+/*   Marketplace */
+
+
+/* End Marketplace */
+

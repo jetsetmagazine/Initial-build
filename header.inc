@@ -1,3 +1,9 @@
+<!--[if !IE]> -->
+<style type="text/css">
+.mainNav li{font-size: 18px;margin-right: 7px; margin-left: 2px;}
+</style>
+<!-- <![endif]-->
+
   <div class="headerBar">
     <div class="topLogo"></div>
     
@@ -12,7 +18,7 @@
 <div class="mainNav">
 
 <ul>
-<li><a href="#">Home</a></li>
+<li><a href="rdw-index.html">Home</a></li>
 <li><a href="#">About</a></li>
 <li><a onclick="return false;" id="category">Categories</a></li>
 <li><a href="http://www.jetsetmag.com/classifieds-backup/classifieds/">Marketplace</a></li>
