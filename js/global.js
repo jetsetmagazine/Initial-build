@@ -1,8 +1,8 @@
 $(window).load(function () {
-
+window.location.hash="";
 var featCount = $("#firstFeatCol li").size();
 var headerHeight = $("#headerHeight").height();
-var newOffsetHeight = featCount*150 + headerHeight;
+var newOffsetHeight = featCount*85 + headerHeight;
 
 var staticAdHeight =  
 
@@ -37,14 +37,12 @@ $(".catContain").on('mouseenter',function(){
 
 });
 
-
 $(".catContain").on('mouseleave',function(){
   $(this).find('.catImg').animate({opacity: "hide", top:"0", width:"0px", height:"0px"}, "fast");
   $(this).find('.catContain').css({background: "#d5d5d5"}, "fast");
   $(this).find('.catContain').animate({opacity: "hide", background:"none"}, "fast");
   $(this).find('.activecat').animate({opacity: "hide", background:"#000", width:"69px"}, "fast");
   $(this).delay(250).removeClass('activecat');
-
 
 });
 

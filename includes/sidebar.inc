@@ -19,15 +19,18 @@
 
     <!--roundabout-->
 
-<?php include 'roundabout.inc'; ?>
+<iframe width="350" height="315" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+   src="http://www.jetsetmag.com/dev/roundabout.html">
+</iframe>
+
 
 <br/>
 
 <div class="floatWrap"><!-- Floating Box Wrapper -->
 <div class="float" style="top: 0px;"><!-- Floating Box -->
 
-  <img src="images/burberry1.jpg" class="staticAd" /> <!--static ad-->
-  <img src="images/burberry2.jpg" class="staticAd" /> <!--static 350 x 95 ad-->
+  <img src="http://www.jetsetmag.com/dev/images/burberry1.jpg" class="staticAd" /> <!--static ad-->
+  <img src="http://www.jetsetmag.com/dev/images/burberry2.jpg" class="staticAd" /> <!--static 350 x 95 ad-->
 
 </div><!-- End Floating Box -->
 </div><!-- End Floatwrap-->

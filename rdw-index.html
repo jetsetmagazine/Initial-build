@@ -1,187 +1,27 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<!-- Meta -->
-<title>Jetset Magazine 2.0</title>
-<meta name="description" content="">
-<meta name="author" content="">
-<meta name="viewport" content="width=device-width">
-<!-- End Meta -->
-
-<link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="css/rwdgrid.css">
-<link rel="stylesheet" href="css/style.css">
-
-
-<!-- html5.js for IE less than 9 -->
-<!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-
-<!-- css3-mediaqueries.js for IE less than 9 -->
-<!--[if lt IE 9]>
-	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-<![endif]-->
-
-  <!--Initial Load Scripts -->
-  <script src="js/jquery-2.0.3.min.js"></script>
-  <script type="text/javascript">
-    $('.catLink').each(function() {$(this).prev('.catImg').animate({opacity: "show", top:"100", width:"75px", height:"75px"}, "fast");$(this).prev('.catImg').animate({opacity: "hide", top:"0", width:"0px", height:"0px"}, "fast");});
-  </script>
-  <!--End Initial Load Scripts -->
-
-  <!-- Favicons -->
-  <link rel="shortcut icon" href="images/favicon.ico">
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-<!-- End Favicons -->
-
-</head>
-<body>
-
-<div class="container-16" id="slider1_container" style="display:none;">
-
-<div class="grid-16" style="margin-bottom:7px;" id="headerHeight">
+<?php
+$tpTitle="Jetset Magazine | The World's Leading Affluent Lifestyle Publication";
+$pgHeading="Jetset Magazine | The World's Leading Affluent Lifestyle Publication";
+$pgDesc="Jetset Magazine is a luxury magazine published ni-monthly. Found in FBOs, private jets, marinas, high end hotels, and exclusive events worldwide. Jetset Magazine caters exclusively to the wealthiest demographic in the world. Readers include private jet owners, luxury yacht owners, professional athletes, A-list celebrities, Fortune 500 business owners, CEOs, entrepreneurs and politicians.";
+$pgKeywords="private jet magazine, jetset magazine, luxury magazines, jetsetter, jetset, luxury lifestyle magazine, affluent magazine, wealthy magazine, jetset mag, affluent lifestyle,";
+$actual_link="http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$pgThumb="images/richard-branson-virgin.jpg";
+$trackingPixelUrl=""
+?>
 
 <!--Include Header -->
-<?php include 'header.inc'; ?>
+<?php include 'includes/header.inc'; ?></div>
 <!--Include Header -->
-
-
-</div>
 
 
 
 <!--begin content-->
 
-
-  <!--WEB FEATURE Column-->
-    <div class="grid-3" id="getColHeight">
-
-      <ul class="articleImages" id="firstFeatCol">
-
-          <li>
-              <a href="http://prevostcar.com/"><img class="articleImg" src="images/prevost.jpg" />
-              <div class="featureCaption">
-                  <p class="captionTitle">Prevost</p>
-                  <p class="captionText">description</p>
-              </div></a>
-          </li>
-
-          <li>
-              <a href="http://www.trov.com/"><img class="articleImg" src="images/trov.jpg" />
-              <div class="featureCaption">
-                  <p class="captionTitle">Trōv</p>
-                  <p class="captionText">description</p>
-              </div></a>
-          </li>
-
-          <li>
-              <a href="http://www.beechcraft.com/"><img class="articleImg" src="images/beechcraft.jpg" />
-              <div class="featureCaption">
-                  <p class="captionTitle">Beechcraft</p>
-                  <p class="captionText">description</p>
-              </div></a>
-          </li>
-
-          <li>
-              <a href="http://www.eurocopterusa.com/index/index.asp"><img class="articleImg" src="images/eurocopter.jpg" />
-              <div class="featureCaption">
-                  <p class="captionTitle">Eurocopter</p>
-                  <p class="captionText">description</p>
-              </div></a>
-          </li>
-
-          <li>
-              <a href="http://www.marcjacobs.com/"><img class="articleImg" src="images/mj.jpg" />
-              <div class="featureCaption">
-                  <p class="captionTitle">Marc Jacobs</p>
-                  <p class="captionText">description</p>
-              </div></a>
-          </li>
-
-          <li>
-              <a href="http://www.dragonandthepearls.com/"><img class="articleImg" src="images/dragon-pearls.jpg" />
-              <div class="featureCaption">
-                  <p class="captionTitle">Dragon and the Pearl</p>
-                  <p class="captionText">description</p>
-              </div></a>
-          </li>
-
-          <li>
-              <a href="http://prevostcar.com/"><img class="articleImg" src="images/prevost.jpg" />
-              <div class="featureCaption">
-                  <p class="captionTitle">Prevost</p>
-                  <p class="captionText">description</p>
-              </div></a>
-          </li>
-
-          <li>
-              <a href="http://www.trov.com/"><img class="articleImg" src="images/trov.jpg" />
-              <div class="featureCaption">
-                  <p class="captionTitle">Trōv</p>
-                  <p class="captionText">description</p>
-              </div></a>
-          </li>
-
-          <li>
-              <a href="http://www.beechcraft.com/"><img class="articleImg" src="images/beechcraft.jpg" />
-              <div class="featureCaption">
-                  <p class="captionTitle">Beechcraft</p>
-                  <p class="captionText">description</p>
-              </div></a>
-          </li>
-
-      </ul>
-
-
-<div class="featureFloat">
-<div class="float" style="top: 0px; width:inherit; display:block;"><!-- Floating Box -->
-
-      <ul class="articleImages">
-
-          <li>
-              <a href="http://www.eurocopterusa.com/index/index.asp"><img class="articleImg" src="images/eurocopter.jpg" />
-              <div class="featureCaption">
-                  <p class="captionTitle">Eurocopter</p>
-                  <p class="captionText">description</p>
-              </div></a>
-          </li>
-
-          <li>
-              <a href="http://www.marcjacobs.com/"><img class="articleImg" src="images/mj.jpg" />
-              <div class="featureCaption">
-                  <p class="captionTitle">Marc Jacobs</p>
-                  <p class="captionText">description</p>
-              </div></a>
-          </li>
-
-          <li>
-              <a href="http://www.dragonandthepearls.com/"><img class="articleImg" src="images/dragon-pearls.jpg" />
-              <div class="featureCaption">
-                  <p class="captionTitle">Dragon and the Pearl</p>
-                  <p class="captionText">description</p>
-              </div></a>
-          </li>
-
-      </ul>
-
-    </div>
-  </div>
-
-    </div>
-  <!-- END WEB FEATURE Column -->
+  <!-- Include Features -->
+  <?php include 'includes/webfeatures.inc'; ?>
+  <!-- End Features Include -->
 
 
   <!-- First Article Column -->
-  
-
   <div class="grid-4">
 
     <ul class="articleImages">
@@ -470,25 +310,26 @@
   <div class="grid-5">
 
 <!--Include Sidebar -->
-<?php include 'sidebar.inc'; ?>
+<?php include 'includes/sidebar.inc'; ?>
 <!--Include Sidebar -->
 
 </div><!-- End grid-5 -->
 
 
 <!--Include Footer -->
-<?php include 'footer.inc'; ?>
+<?php include 'includes/footer.inc'; ?>
 <!--Include Footer -->
   
 </div>
 <!-- End container-16 -->
 
-
 <!--Additional Scripts-->
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js/global.js"></script>
+<script type="text/javascript" src="http://www.jetsetmag.com/dev/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="http://www.jetsetmag.com/dev/js/global.js"></script>
 <!--Additional Scripts-->
 <script type="text/javascript">$(document).ready(function() {$( '.container-16' ).fadeIn("7500");});</script>
+
+
 
 </body>
 </html>

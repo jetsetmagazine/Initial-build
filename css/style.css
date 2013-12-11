@@ -114,6 +114,8 @@ margin-top: 10px; border: solid 1px #bbbcbc;
 .catLink{margin-bottom: 10px;}
 
 .roundaboutBox{height: 160px;width: 100%;margin-top: 25px;margin-left: -15px;}
+
+.articleContainer > h1, 
 /*************************** End Category Navigation *************************************/
 
 /****** End Navigation ******/
@@ -125,12 +127,15 @@ margin-top: 10px; border: solid 1px #bbbcbc;
 
 .articleTitle{font-family: italiana, sans-serif; font-size: 24px; text-align: center; margin-top: 20px;}
 .bigImg{width: 95%; padding:15px;}
-h2.articleSub{padding-top: 0; padding-bottom: 0; font-weight: bold; font-style: italic; padding-left: 15px; width: 70%}
+h2.articleSub, h3.articleSub, h4.articleSub, h5.articleSub, h6.articleSub {padding-top: 0; padding-bottom: 0; font-weight: bold; font-style: italic; padding-left: 15px; width: 70%}
 .addThis{float: right;margin-top: -35px;margin-right: 15px;}
 .articleBy{padding-top: 0; padding-bottom: 0; font-style: italic;}
 h1{font-size: 24px;}
 .pinit{float: right; width: 50px; height: 50px}
 p.pinit{text-align:right; margin-top:2px; padding:0px; }
+.bottomLine{border-bottom: solid 1px #d5d5d5; padding-bottom: 10px;}
+.topLine{border-top: solid 1px #d5d5d5; padding-bottom: 10px;}
+.line{border-top: solid 1px #d5d5d5; border-bottom: solid 1px #d5d5d5; padding-bottom: 10px; padding-top: 10px;}
 
 /********** End Article Content ************/
 
@@ -208,6 +213,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', end
 .mktFeatItem{float: left; margin-right: 15px; height: 145px; border: solid 2px #d5d5d5;}
 .mktFeatItem:hover{opacity: 0.75;}
 
+/******** Web Features **********/
+
+.featureBox{display: none;}
 
 /********************************************************************************************* 
 
